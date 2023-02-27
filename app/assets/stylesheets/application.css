@@ -13,3 +13,10 @@
  *= require_tree .
  *= require_self
  */
+
+.site-header {
+  background:linear-gradient(to bottom right, #7E75FA, #3AD1FA, #9F6DFF);
+  font-family: 'Shantell Sans', cursive;
+  color:#062940;
+}
+
