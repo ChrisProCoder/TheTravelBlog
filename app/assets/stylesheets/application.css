@@ -20,3 +20,21 @@
   color:#062940;
 }
 
+/*posotions the New Pots button */
+ .NewPostPostion {
+   position:absolute;
+   top:197px;
+   left:1051px;
+ }
+ 
+ .btn {
+   font-size:18px;
+ }
+ 
+
+/*Removes the the blog form showing in home page*/
+#posts .blogBody{
+  display: none;
+}
+
+
