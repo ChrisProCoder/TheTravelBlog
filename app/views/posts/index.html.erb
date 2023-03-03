@@ -1,14 +1,11 @@
 <p style="color: green"><%= notice %></p>
 
-
-
-<h1>Posts</h1>
-<%= link_to "Create Post", new_post_path, class: 'btn btn-success NewPostPostion' %>
-
-  <div id="posts" class="card card-body bg-light mb-5">
+<h1 style="display:inline;">Posts</h1>
+  <%= link_to "Create Post", new_post_path, class: 'btn btn-success NewPostPostion' %>
+  <div id="posts" class="card card-body bg-light mb-4">
     <% @posts.each do |post| %>
       <%= render post %>
-      <p>
+      <p class="mt-2" >
         <%= link_to "Show post", post, class: 'btn btn-primary' %>
       </p>
       <hr>
